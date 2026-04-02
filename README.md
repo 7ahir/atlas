@@ -9,6 +9,10 @@ Prepared by [@7ahir](https://github.com/7ahir)
 ![Focus](https://img.shields.io/badge/Focus-Operational%20Leverage-CA8A04?style=flat-square)
 ![Focus](https://img.shields.io/badge/Focus-Delivery%20Visibility-0EA5E9?style=flat-square)
 
+![Project Atlas banner](assets/project-atlas-banner.svg)
+
+GitHub social preview upload asset: [assets/project-atlas-social-preview.png](assets/project-atlas-social-preview.png)
+
 > A portfolio case study in delivery visibility, release confidence, and operational leverage for a multi-surface cloud platform.
 
 ## What This Is
