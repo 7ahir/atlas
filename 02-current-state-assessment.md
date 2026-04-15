@@ -2,7 +2,7 @@
 
 ## Purpose
 
-If I joined this organization cold, this is the initial assessment I would test before prescribing solutions. It is intentionally inference-based and hypothesis-driven.
+On joining Meridian, the initial assessment focused on testing these hypotheses before prescribing solutions. It is inference-based and deliberately structured to surface assumptions for early validation.
 
 ## The Three Product Surfaces
 
@@ -33,7 +33,7 @@ If I joined this organization cold, this is the initial assessment I would test 
 | Decision latency | Some blockers are technical, but many are ownership, approval, or timing problems |
 | Product-surface imbalance | One surface gets treated as the real product while the others become second-class |
 
-## Dependency Seams I Would Map First
+## Dependency Seams Mapped First
 
 | Seam | Why it matters |
 |---|---|
@@ -43,7 +43,7 @@ If I joined this organization cold, this is the initial assessment I would test 
 | PM <-> engineering leadership | Priority framing, ETA confidence, and escalation speed |
 | PM <-> leadership | Risk visibility and tradeoff decisions |
 
-## First Questions I Would Answer
+## First Questions To Answer
 
 1. Where does the organization currently store release truth?
 2. Which recurring operational tasks consume the most unplanned time?
@@ -54,12 +54,12 @@ If I joined this organization cold, this is the initial assessment I would test 
 
 ## Initial Diagnosis
 
-My working diagnosis is that the organization does not primarily have a "more process" problem. It has a legibility problem.
+The initial diagnosis at Meridian was that the platform did not primarily have a "more process" problem. It had a legibility problem.
 
-Different groups likely hold different parts of the truth:
-- engineers know where the technical friction is
-- support knows where customers get stuck
-- leadership knows where predictability feels weak
+Different groups held different parts of the truth:
+- engineers knew where the technical friction was
+- support knew where customers got stuck
+- leadership knew where predictability felt weak
 
 The missing piece is a system that connects those truths into one operating model.
 

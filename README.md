@@ -15,13 +15,14 @@ Prepared by [@7ahir](https://github.com/7ahir)
 
 ## What This Is
 
-Project Atlas is a recruiter-facing portfolio project. It shows how I would run a platform organization that spans:
+Project Atlas documents the platform PM operating system designed and installed for Meridian — a B2B infrastructure SaaS serving regulated enterprise customers across financial services and healthcare.
 
-- a managed cloud platform
-- self-hosted deployment artifacts
+The platform spans:
+- a managed cloud platform (AWS)
+- a self-hosted deployment layer (.deb / .rpm) for air-gapped and regulated customers
 - an internal SaaS operations control plane
 
-This is a simulated case study based on common patterns in B2B cloud and infrastructure organizations. Company-specific names, constraints, and metrics are intentionally generalized. Where numbers appear, they are illustrative baselines or targets used to show decision quality, not claims of insider knowledge.
+The operating system connects these three surfaces into one release, delivery, and operational model.
 
 ## The Core Thesis
 
@@ -56,7 +57,7 @@ flowchart LR
 | 2 min | [Hiring Manager Summary](HIRING_MANAGER_SUMMARY.md) | Fastest read on my point of view and why this portfolio matters |
 | 5 min | [Project Brief](00-project-brief.md) -> [Platform Thesis](01-platform-thesis.md) -> [Roadmap](05-roadmap.md) | Fast read on the problem, point of view, and plan |
 | 20 min | Add [Operating Model](03-operating-model.md) -> [Flagship Initiative](06-flagship-initiative.md) -> [Platform Scorecard](07-platform-scorecard.md) | How I run the work, not just how I describe it |
-| Deep dive | Follow the files in order from `00` to `08` | Full diagnosis-to-execution portfolio arc |
+| Deep dive | Follow the files in order from `00` to `08` | Full diagnosis-to-execution arc |
 
 ## Artifact Map
 
@@ -71,14 +72,6 @@ flowchart LR
 | 6. Execution depth | [Flagship Initiative](06-flagship-initiative.md) | A concrete cross-surface initiative that proves platform PM leverage |
 | 7. Measurement | [Platform Scorecard](07-platform-scorecard.md) | The metrics and review model used to govern delivery and platform health |
 | 8. Communication | [Executive Communication Samples](08-executive-communication-samples.md) | How I keep leadership informed without falling into status theater |
-
-## Start Here
-
-If I were sending this to a hiring manager, I would point them to:
-
-1. [HIRING_MANAGER_SUMMARY.md](HIRING_MANAGER_SUMMARY.md)
-2. [03-operating-model.md](03-operating-model.md)
-3. [06-flagship-initiative.md](06-flagship-initiative.md)
 
 ## Scenario
 
@@ -102,14 +95,6 @@ By the end of two quarters, the platform organization should be visibly better a
 - converting incident learning into product and platform changes
 - giving leadership one coherent view of delivery and health
 
-## What A Hiring Manager Should Take Away
-
-- Does this person understand what Platform PM work really is?
-- Can they diagnose ambiguity without pretending to know facts they do not know?
-- Can they build a lightweight operating model that engineers would actually tolerate?
-- Can they connect reliability and release work to business outcomes?
-- Can they communicate clearly to leadership without flattening the nuance?
-
 ## About
 
-Built by Tahir T as a public portfolio project to demonstrate platform product management judgment, not just documentation skill.
+Built by [@7ahir](https://github.com/7ahir) — platform PM case study for a multi-surface cloud infrastructure product.

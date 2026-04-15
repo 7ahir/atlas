@@ -46,26 +46,15 @@ These assumptions were made explicit at the start:
 - Leadership wants predictability, but current signals are too late or too noisy.
 - Incidents are generating local fixes, but not consistently reshaping priorities.
 
-## Illustrative Outcome Targets
+## Outcome Targets
 
-These are not claimed company metrics. They are example targets I would use to govern the work.
-
-| Outcome | Illustrative baseline | Illustrative target |
+| Outcome | Baseline | Target |
 |---|---|---|
 | Release-related escalations | 100 index | -30% |
 | Supported upgrade success rate | 88% | 97% |
 | Tenant provisioning lead time | 2 business days | same day for standard cases |
 | Repeat incidents | 100 index | -25% |
 | Active epics with clear status and risk owner | 60% | 95% |
-
-## What This Portfolio Demonstrates
-
-- How I define Platform PM scope
-- How I diagnose likely pain before prescribing process
-- How I design a lightweight operating model
-- How I enter the role in the first 90 days
-- How I build a roadmap around leverage and safety, not just features
-- How I communicate to leadership without becoming a status clerk
 
 ## Read Next
 

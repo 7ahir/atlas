@@ -1,11 +1,9 @@
 # Executive Communication Samples
 
-These samples are here for one reason: to show how I would communicate platform work without turning into a status reporter.
-
 ## 1. Weekly Leadership Update
 
 ```markdown
-# Platform Weekly Update
+# Meridian Platform — Week of [Date]
 
 ## Overall Status
 - Managed cloud platform: Amber
@@ -72,13 +70,3 @@ Decision needed by:
 Friday, 15:00
 ```
 
-## What These Samples Are Meant To Show
-
-- clarity without fluff
-- explicit risk language
-- confidence levels instead of false certainty
-- communication that helps leadership act
-
-## Back To
-
-[README](README.md)
