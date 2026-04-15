@@ -6,7 +6,7 @@ Design and operate a Platform PM system for a multi-surface cloud platform so re
 
 ## Scenario
 
-The business runs on three tightly linked platform surfaces:
+Meridian runs on three tightly linked platform surfaces:
 
 1. A managed cloud platform that powers the SaaS business
 2. A self-hosted deployment layer for customers with stricter control requirements
@@ -38,7 +38,7 @@ When that happens, the wrong answer is usually more reporting. The right answer 
 
 ## Working Assumptions
 
-These assumptions are explicit so the reader can judge the quality of the logic:
+These assumptions were made explicit at the start:
 
 - Release truth is fragmented across people, tools, and rituals.
 - Operational toil is materially consuming engineering capacity.

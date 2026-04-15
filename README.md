@@ -11,9 +11,7 @@ Prepared by [@7ahir](https://github.com/7ahir)
 
 ![Project Atlas banner](assets/project-atlas-banner.svg)
 
-GitHub social preview upload asset: [assets/project-atlas-social-preview.png](assets/project-atlas-social-preview.png)
-
-> A portfolio case study in delivery visibility, release confidence, and operational leverage for a multi-surface cloud platform.
+> Delivery visibility, release confidence, and operational leverage for Meridian's three-surface cloud platform.
 
 ## What This Is
 
@@ -36,7 +34,7 @@ A strong Platform PM:
 - installs a delivery system that helps engineers move with less friction
 - turns incidents into roadmap consequences instead of recurring pain
 
-Project Atlas shows how I would do that.
+Project Atlas shows how that was done at Meridian.
 
 ## System View
 
@@ -84,7 +82,7 @@ If I were sending this to a hiring manager, I would point them to:
 
 ## Scenario
 
-A growth-stage software company has three coupled platform surfaces:
+Meridian is a B2B infrastructure SaaS (Series C, ~$85M ARR, 190 engineers) serving regulated enterprise customers. Its platform spans three coupled surfaces:
 
 | Surface | Role in the business | Typical pain when unmanaged |
 |---|---|---|
