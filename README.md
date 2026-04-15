@@ -54,7 +54,7 @@ flowchart LR
 
 | Time | Path | What you will get |
 |---|---|---|
-| 2 min | [Hiring Manager Summary](HIRING_MANAGER_SUMMARY.md) | Fastest read on my point of view and why this portfolio matters |
+| 2 min | [Platform Overview](PRODUCT_OVERVIEW.md) | Fastest read on what the operating system is and what it delivers |
 | 5 min | [Project Brief](00-project-brief.md) -> [Platform Thesis](01-platform-thesis.md) -> [Roadmap](05-roadmap.md) | Fast read on the problem, point of view, and plan |
 | 20 min | Add [Operating Model](03-operating-model.md) -> [Flagship Initiative](06-flagship-initiative.md) -> [Platform Scorecard](07-platform-scorecard.md) | How I run the work, not just how I describe it |
 | Deep dive | Follow the files in order from `00` to `08` | Full diagnosis-to-execution arc |
@@ -63,15 +63,17 @@ flowchart LR
 
 | Phase | Artifact | What it demonstrates |
 |---|---|---|
+| Overview | [Platform Overview](PRODUCT_OVERVIEW.md) | What the operating system is and what it delivers |
 | 0. Framing | [Project Brief](00-project-brief.md) | Strategic framing and scope definition |
 | 1. Point of view | [Platform Thesis](01-platform-thesis.md) | Clear understanding of what Platform PM owns and why it matters |
 | 2. Diagnosis | [Current-State Assessment](02-current-state-assessment.md) | Ability to infer pain, risk, and operating seams before jumping to solutions |
 | 3. Operating system | [Operating Model](03-operating-model.md) | Cadence design, decision hygiene, dependency management, and incident-to-roadmap loops |
-| 4. Entry strategy | [30-60-90 Plan](04-30-60-90-plan.md) | How I would enter the role without thrashing the team |
+| 4. Entry strategy | [30-60-90 Plan](04-30-60-90-plan.md) | How the first quarter was structured |
 | 5. Direction | [Roadmap](05-roadmap.md) | Outcome-led sequencing across platform surfaces |
 | 6. Execution depth | [Flagship Initiative](06-flagship-initiative.md) | A concrete cross-surface initiative that proves platform PM leverage |
 | 7. Measurement | [Platform Scorecard](07-platform-scorecard.md) | The metrics and review model used to govern delivery and platform health |
-| 8. Communication | [Executive Communication Samples](08-executive-communication-samples.md) | How I keep leadership informed without falling into status theater |
+| 8. Communication | [Executive Communication Samples](08-executive-communication-samples.md) | Weekly update, decision log, and risk escalation samples |
+| 9. Incident review | [Incident Review Sample](09-incident-review-sample.md) | Postmortem and roadmap consequence |
 
 ## Scenario
 
