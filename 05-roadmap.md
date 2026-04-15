@@ -6,7 +6,7 @@ This is a Now / Next / Later roadmap anchored to outcomes, not features. Each in
 
 ## Assumed Capacity Model
 
-To keep the roadmap honest, I would assume capacity is explicitly divided:
+Capacity is explicitly divided to keep the roadmap honest:
 
 - 50% planned strategic work
 - 30% reliability and operational health

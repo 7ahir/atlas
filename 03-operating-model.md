@@ -81,7 +81,7 @@ Different audiences need different fidelity.
 
 Good communication here is not verbosity. It is reduction without distortion.
 
-## What I Would Standardize Early
+## What To Standardize Early
 
 - one epic brief format
 - one dependency board with owner and due date
@@ -89,7 +89,7 @@ Good communication here is not verbosity. It is reduction without distortion.
 - one decision log for non-trivial tradeoffs
 - one incident-to-backlog review loop
 
-## What I Would Not Standardize Too Early
+## What To Defer
 
 - every engineering workflow detail
 - one universal document format for every audience
