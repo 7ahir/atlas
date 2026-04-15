@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This scorecard is the operating view I would use with leadership and the platform team. It is designed to answer four questions:
+This scorecard is the operating view used with Meridian's leadership and platform team. It is designed to answer four questions:
 
 1. Is delivery healthy?
 2. Is the platform healthy?
@@ -11,7 +11,7 @@ This scorecard is the operating view I would use with leadership and the platfor
 
 ## 1. Delivery Health
 
-| Metric | Why it matters | Illustrative green / amber / red |
+| Metric | Why it matters | Green / Amber / Red |
 |---|---|---|
 | Epics on track / at risk / off track | Shows whether the roadmap is still trustworthy | >80% on track / 60-80% / <60% |
 | Blocked work older than 5 working days | Surfaces waiting cost | <3 / 3-6 / >6 |
@@ -20,7 +20,7 @@ This scorecard is the operating view I would use with leadership and the platfor
 
 ## 2. Platform Health
 
-| Metric | Why it matters | Illustrative green / amber / red |
+| Metric | Why it matters | Green / Amber / Red |
 |---|---|---|
 | SLO coverage on critical services | Shows whether expectations are explicit | >90% / 70-90% / <70% |
 | MTTR | Measures recovery speed | Trending down / flat / trending up |
@@ -29,7 +29,7 @@ This scorecard is the operating view I would use with leadership and the platfor
 
 ## 3. Upgrade And Release Health
 
-| Metric | Why it matters | Illustrative green / amber / red |
+| Metric | Why it matters | Green / Amber / Red |
 |---|---|---|
 | Supported upgrade success rate | Direct trust signal for deployment quality | >97% / 93-97% / <93% |
 | Rollback rate | Measures rollout safety | <5% / 5-8% / >8% |
@@ -38,7 +38,7 @@ This scorecard is the operating view I would use with leadership and the platfor
 
 ## 4. Operational Leverage
 
-| Metric | Why it matters | Illustrative green / amber / red |
+| Metric | Why it matters | Green / Amber / Red |
 |---|---|---|
 | Tenant provisioning lead time | Exposes operational drag | same day / 1 business day / >1 day |
 | Manual touchpoints per standard tenant action | Quantifies toil | trending down / flat / trending up |
@@ -67,6 +67,54 @@ This scorecard is the operating view I would use with leadership and the platfor
 - optimistic ETA fiction
 - platform work that stays politically invisible
 - endless debate about whether pain is real
+
+## Q1 Sample Data
+
+This is what the scorecard looked like at the end of Q1, six weeks after the operating model was installed.
+
+### Delivery Health
+
+| Metric | Q1 Result | Status | Commentary |
+|---|---|---|---|
+| Epics on track / at risk / off track | 3 on track / 2 at risk / 1 off track | Amber | Artifact standardization epic slipped two weeks due to packaging toolchain dependency not resolved in time |
+| Blocked work older than 5 working days | 4 items | Amber | Two blockers with application engineering (API contract), one with legal (data residency), one internal |
+| Scope churn inside active milestone | 14% | Amber | Two scope additions to the unified release initiative after compatibility edge cases discovered late |
+| Interrupt load as % of capacity | 28% | Red | Interrupt load above target for the full quarter; flagged as roadmap risk going into Q2 |
+
+### Platform Health
+
+| Metric | Q1 Result | Status | Commentary |
+|---|---|---|---|
+| SLO coverage on critical services | 6 of 9 critical services | Amber | Three services still without formal SLO; added to Q2 roadmap |
+| MTTR | Trending down (avg 47 min → 31 min) | Green | Improvement driven by clearer incident owner assignment and runbook updates |
+| Repeat incidents | 2 repeat classes identified | Amber | Both now have backlog items with owners; first fix targeted for Q2 |
+| Change failure rate | 11% | Amber | Improved from 17% at start of quarter; target is below 10% |
+
+### Upgrade And Release Health
+
+| Metric | Q1 Result | Status | Commentary |
+|---|---|---|---|
+| Supported upgrade success rate | 91% | Amber | Up from 88% baseline; preflight checks not yet live so some late-stage failures still occurring |
+| Rollback rate | 6% | Amber | Two rollbacks this quarter; both documented with root cause and backlog items |
+| Time from release candidate to artifact publication | Trending down (avg 9 days → 6 days) | Green | Release manifest adoption reduced coordination lag |
+| Releases with complete manifest and rollback plan | 4 of 5 | Amber | One release missed rollback plan due to last-minute scope change; corrected in process for Q2 |
+
+### Operational Leverage
+
+| Metric | Q1 Result | Status | Commentary |
+|---|---|---|---|
+| Tenant provisioning lead time | 1 business day (standard cases) | Amber | Down from 2 days; target is same-day; automation v1 shipped mid-quarter |
+| Manual touchpoints per standard tenant action | 4 (down from 7) | Green | Lifecycle automation v1 reduced manual steps materially |
+| Time spent on recurring ops work | Trending down | Green | Estimated 12% capacity recovered from toil reduction in Q1 |
+| Decision latency on cross-team blockers | 3.2 days average | Amber | Improved from no tracking baseline; target is under 2 days |
+
+### Q1 Assessment
+
+Two themes in amber reflect structural issues rather than execution failures:
+- Interrupt load at 28% is the single biggest constraint on roadmap delivery. Q2 requires an explicit interrupt budget conversation with platform leadership before committing to new epics.
+- SLO coverage gaps mean platform health visibility is still incomplete. The monthly health review is running but three services are still providing qualitative-only signals.
+
+Green signals — MTTR improvement and provisioning toil reduction — show the operating model is working where it has had time to take effect.
 
 ## Read Next
 
